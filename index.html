@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/test/style.css" />
+
+    <title>nzanbemo</title>
+  </head>
+
+  <body>
+    <div>
+      <!-- this is navbar starting  -->
+      <!-- this is navbar starting  -->
+      <nav
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 30px 10px;
+          border: 2px solid black;
+          height: 100px;
+        "
+      >
+        <h1 style="position: relative; left: 300px; cursor: pointer">GRAPHY</h1>
+
+        <!-- links start here  -->
+        <ul
+          id="links"
+          style="
+            display: flex;
+            gap: 60px;
+            list-style: none;
+            position: relative;
+            right: 300px;
+          "
+        >
+          <li style="font-weight: 650; cursor: pointer">
+            <a
+              href="/test/index.html"
+              style="text-decoration: none; color: black"
+              >Home</a
+            >
+          </li>
+          <li style="font-weight: 650; cursor: pointer">
+            <a
+              href="/test/gallery.html"
+              style="text-decoration: none; color: black"
+              >Photography</a
+            >
+          </li>
+        </ul>
+
+        <!-- links ends here  -->
+      </nav>
+      <!-- navbar ends here -->
+
+      <div>
+        <h1
+          id="capture"
+          style="
+            font-size: 80px;
+            color: white;
+            position: absolute;
+            bottom: 2px;
+            right: 5px;
+          "
+        >
+          CAPTURING
+        </h1>
+        <h2
+          style="
+            font-size: 40px;
+            color: black;
+            position: absolute;
+            bottom: 10px;
+            right: 5px;
+          "
+        >
+          MOMENTS
+        </h2>
+
+        <video
+          style="width: 100%; height: calc(100vh - 100px); object-fit: cover"
+          autoplay
+          loop
+          muted
+          src="/test/public/4khead.mp4"
+        ></video>
+      </div>
+
+      <!-- this is navbar ending -->
+
+      <!--  top listing starts here  -->
+
+      <div>
+        <div style="margin-top: 50px; margin-bottom: 50px">
+          <h1 style="text-align: center">TOP LISTING</h1>
+        </div>
+
+        <div id="wrap">
+          <div id="topimg">
+            <img
+              src="/test/public/1.jpg"
+              alt=""
+              style="width: 100%; height: 300px; object-fit: cover"
+            />
+            <img
+              src="/test/public/2.jpg"
+              alt=""
+              style="width: 100%; height: 300px; object-fit: cover"
+            />
+            <img
+              src="/test/public/3.jpg"
+              alt=""
+              style="width: 100%; height: 300px; object-fit: cover"
+            />
+            <img
+              src="/test/public/4.jpg"
+              alt=""
+              style="width: 100%; height: 300px; object-fit: cover"
+            />
+            <img
+              src="/test/public/5.jpg"
+              alt=""
+              style="width: 100%; height: 300px; object-fit: cover"
+            />
+            <img
+              src="/test/public/6.jpg"
+              alt=""
+              style="width: 100%; height: 300px; object-fit: cover"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- lighting hr section starts end -->
+      <section
+        id="light"
+        style="margin-top: 300px; width: 3500px; overflow-x: hidden"
+      >
+        <div
+          style="background-color: #000; display: flex; justify-content: center"
+        >
+          <h1 style="font-size: 550px; color: white">LIGHTING</h1>
+        </div>
+      </section>
+      <!-- lighting hr section end here -->
+
+      <!-- contrast starts here -->
+
+      <section style="height: 100vh; display: flex; align-items: center">
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 100px;
+          "
+        >
+          <!-- text compoentns start here -->
+          <div id="text">
+            <h1
+              style="
+                font-size: 45px;
+                border: 2px solid black;
+                padding: 30px;
+                position: relative;
+                left: 70px;
+              "
+            >
+              COMPOSITION <br />CONTRAST <br />
+              WHITE-BALANCE
+            </h1>
+          </div>
+          <!-- text compoentns end here -->
+
+          <!-- image components start here -->
+          <div id="img" style="">
+            <img
+              src="/test/public/8.jpg"
+              alt="img8"
+              style="width: 500px; height: 500px; object-fit: cover"
+            />
+          </div>
+          <!-- image components end here -->
+        </div>
+      </section>
+
+      <!-- contrast ends here -->
+
+      <!-- top listing ends here -->
+
+      <section
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #000;
+          height: 100vh;
+        "
+      >
+        <h1 id="freeze" style="color: white; font-size: 30px">
+          freezing moments, capturing souls.
+        </h1>
+      </section>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="/test/script.js"></script>
+  </body>
+</html>
